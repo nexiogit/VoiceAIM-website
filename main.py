@@ -11,6 +11,6 @@ def home():
 
 if __name__ == '__main__':
     host = "0.0.0.0"
-    port = "80"
+    port = "8080"
     debug = False
     app.run(host, port, debug)
